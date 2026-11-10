@@ -1,0 +1,18 @@
+{
+  "version": "1.0.1",
+  "versionCode": 101,
+  "releaseName": "NovaPulse v1.0.1 Live OTA Release",
+  "minApkVersion": "1.0.0",
+  "releasedAt": "2026-11-10T14:47:02.308Z",
+  "sha256": "0958bb5a317fc2dd037eaeb919d8114956abce616fb7d18272f4c364660f055b",
+  "sizeBytes": 2318644,
+  "bundleUrl": "https://raw.githubusercontent.com/AlphaInteractive-Official/novapulse-releases/main/bundle.zip",
+  "changelog": [
+    "Fixed Download button arrow collision with text label",
+    "Automatic YouTube thumbnail resolution and title extraction without server bottleneck",
+    "Immediate download task enqueuing and Android background pollers",
+    "Slidable Player Studio container for zero top/bottom bar clipping",
+    "Native file-backed playlist creation and persistence",
+    "Real-time GitHub Live OTA Auto-Updating engine"
+  ]
+}
