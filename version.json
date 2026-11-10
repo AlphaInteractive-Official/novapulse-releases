@@ -1,18 +1,16 @@
 {
-  "version": "1.0.1",
+  "version": "001.000.001",
   "versionCode": 101,
-  "releaseName": "NovaPulse v1.0.1 Live OTA Release",
+  "releaseName": "NovaPulse v001.000.001 Hotfix Release",
   "minApkVersion": "1.0.0",
-  "releasedAt": "2026-11-10T14:47:02.308Z",
-  "sha256": "0958bb5a317fc2dd037eaeb919d8114956abce616fb7d18272f4c364660f055b",
-  "sizeBytes": 2318644,
+  "releasedAt": "2026-11-10T16:21:00.000Z",
+  "sha256": "fa95ef17f83e0ee6a068525288e6e6bb4b559fd31911632a214acf7b19be48d4",
+  "sizeBytes": 2365611,
   "bundleUrl": "https://raw.githubusercontent.com/AlphaInteractive-Official/novapulse-releases/main/bundle.zip",
   "changelog": [
-    "Fixed Download button arrow collision with text label",
-    "Automatic YouTube thumbnail resolution and title extraction without server bottleneck",
-    "Immediate download task enqueuing and Android background pollers",
-    "Slidable Player Studio container for zero top/bottom bar clipping",
-    "Native file-backed playlist creation and persistence",
-    "Real-time GitHub Live OTA Auto-Updating engine"
+    "Native YouTube video duration extraction resolving 00:00 timestamp bug",
+    "Hardened DownloadManager status check preventing false 'download completed' alerts on failed connections",
+    "Real-time failure reasoning and toast reporting",
+    "Synchronized with NovaVersion v001.000.001"
   ]
 }
