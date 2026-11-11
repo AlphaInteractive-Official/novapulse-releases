@@ -1,15 +1,17 @@
 {
-  "version": "001.000.002",
-  "versionCode": 102,
-  "releaseName": "NovaPulse v001.000.002 Live OTA Release",
+  "version": "001.000.003",
+  "versionCode": 103,
+  "releaseName": "NovaPulse v001.000.003 Live OTA Release",
   "minApkVersion": "1.0.0",
-  "releasedAt": "2026-11-11T12:54:00.000Z",
+  "releasedAt": "2026-11-11T14:26:00.000Z",
   "sha256": "721a8a3c380196fdd56a24171b0fb8992f9566d0334e17692755648be3467316",
-  "sizeBytes": 2368031,
+  "sizeBytes": 2368032,
   "bundleUrl": "https://raw.githubusercontent.com/AlphaInteractive-Official/novapulse-releases/main/bundle.zip",
   "changelog": [
-    "Fixed Android OTA path normalization: eliminated backslashes in bundle extraction",
-    "Restored 100% CSS styling across mobile, tablet, and desktop views",
-    "Enhanced ZipInputStream path sanitizer for robust cross-platform asset extraction"
-  ]
+    "Resolved 00:00 video duration bug using multi-tier InnerTube metadata resolution",
+    "Integrated dual-tier direct stream resolution (ANDROID_VR + VISIONOS) on Android",
+    "Eliminated false DownloadManager completion notifications on mobile"
+  ],
+  "bundleSha256": "70b164f366f2d033b018db20622cd9d9e78312a9bb4e05695bb4dd197895eedf",
+  "releaseNotes": "Fix video duration 00:00 and resolve direct streams on mobile without false completion"
 }
