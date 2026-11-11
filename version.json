@@ -1,16 +1,15 @@
 {
-  "version": "001.000.001",
-  "versionCode": 101,
-  "releaseName": "NovaPulse v001.000.001 Hotfix Release",
+  "version": "001.000.002",
+  "versionCode": 102,
+  "releaseName": "NovaPulse v001.000.002 Live OTA Release",
   "minApkVersion": "1.0.0",
-  "releasedAt": "2026-11-10T16:21:00.000Z",
-  "sha256": "fa95ef17f83e0ee6a068525288e6e6bb4b559fd31911632a214acf7b19be48d4",
-  "sizeBytes": 2365611,
+  "releasedAt": "2026-11-11T12:54:00.000Z",
+  "sha256": "721a8a3c380196fdd56a24171b0fb8992f9566d0334e17692755648be3467316",
+  "sizeBytes": 2368031,
   "bundleUrl": "https://raw.githubusercontent.com/AlphaInteractive-Official/novapulse-releases/main/bundle.zip",
   "changelog": [
-    "Native YouTube video duration extraction resolving 00:00 timestamp bug",
-    "Hardened DownloadManager status check preventing false 'download completed' alerts on failed connections",
-    "Real-time failure reasoning and toast reporting",
-    "Synchronized with NovaVersion v001.000.001"
+    "Fixed Android OTA path normalization: eliminated backslashes in bundle extraction",
+    "Restored 100% CSS styling across mobile, tablet, and desktop views",
+    "Enhanced ZipInputStream path sanitizer for robust cross-platform asset extraction"
   ]
 }
