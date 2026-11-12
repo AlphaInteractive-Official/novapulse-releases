@@ -1,7 +1,7 @@
 {
-  "version": "001.000.004",
+  "version": "1.0.4",
   "versionCode": 104,
-  "releaseName": "NovaPulse v001.000.004 Live OTA Release",
+  "releaseName": "NovaPulse v1.0.4 Live OTA Release",
   "minApkVersion": "1.0.0",
   "releasedAt": "2026-11-11T15:10:53.882Z",
   "sha256": "087a73fea73c22e6a20175d05e2bbec8b0ed7580f487835b6a986e1ffbdf91f9",
@@ -11,8 +11,10 @@
     "Fixed mobile download queue staying at 0% / blank ETA by populating task.percent and aligning completed status",
     "Integrated VISIONOS high-speed direct stream resolution with dynamic YouTube session tokens",
     "Added User-Agent and Referer headers to Android DownloadManager requests",
-    "Synchronized dynamic version display to v001.000.004 in topbar, footer, and native bridge"
+    "Synchronized dynamic version display to v1.0.4 in topbar, footer, and native bridge",
+    "Added dedicated Version Control system in Settings with upgrade/downgrade support",
+    "Fixed version downgrade bug — app now always shows authoritative server version"
   ],
   "bundleSha256": "087a73fea73c22e6a20175d05e2bbec8b0ed7580f487835b6a986e1ffbdf91f9",
-  "releaseNotes": "Fix standalone mobile download execution, live progress tracking, and bump version to v001.000.004"
+  "releaseNotes": "Version control system added, version format simplified to 1.0.X, fixed version regression bug"
 }
